@@ -13,7 +13,7 @@
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 # Lesser General Public License for more details.
 
-__version__ = "2.9"
+__version__ = "2.9woe001"
 
 import time
 import sys
@@ -148,7 +148,7 @@ except (ImportError, AttributeError):
 
 
 class Speedometer:
-    def __init__(self,maxlog=5):
+    def __init__(self,maxlog=30):
         """speedometer(maxlog=5)
         maxlog is the number of readings that will be stored"""
         self.log = []
